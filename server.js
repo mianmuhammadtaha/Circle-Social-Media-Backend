@@ -11,7 +11,7 @@ const { Server } = require('socket.io')
 // app.use(cors())
 // app.options("*", cors()); // allow preflight for all routes
 app.use(cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
     methods: ["GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"]
 }));
